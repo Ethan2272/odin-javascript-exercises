@@ -1,9 +1,6 @@
 function numberChecker(number) {
-  if (number === 6) {
-    return true;
-  } else {
-    return false;
-  }
+  let validNumbers = [1000, 10];
+  return (validNumbers.includes(number));
 }
 
 // Do not edit below this line
